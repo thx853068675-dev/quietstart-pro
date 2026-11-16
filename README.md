@@ -2,22 +2,22 @@
 
 面向 HarmonyOS 的自动化与网络工具。
 
-本仓库用于发布预览版 APP、更新说明与问题反馈，目前不提供完整应用源码。
+本仓库用于发布预览版 HAP、更新说明与问题反馈，目前不提供完整应用源码。
 
 ## 下载
 
-**[下载 1.0.0 预览版（ZIP，内含 APP）](https://github.com/thx853068675-dev/quietstart-pro/releases/download/v1.0.0-preview-130069/quietstart-pro-1.0.0-preview-130069-unsigned.app.zip)** · [发布说明](https://github.com/thx853068675-dev/quietstart-pro/releases/tag/v1.0.0-preview-130069) · [校验文件](https://github.com/thx853068675-dev/quietstart-pro/releases/download/v1.0.0-preview-130069/SHA256SUMS.txt)
+**[下载 1.0.0 预览版 HAP](https://github.com/thx853068675-dev/quietstart-pro/releases/download/v1.0.0-preview-130069/quietstart-pro-1.0.0-preview-130069-unsigned.hap)** · [发布说明](https://github.com/thx853068675-dev/quietstart-pro/releases/tag/v1.0.0-preview-130069) · [校验文件](https://github.com/thx853068675-dev/quietstart-pro/releases/download/v1.0.0-preview-130069/SHA256SUMS.txt)
 
 | 项目 | 信息 |
 | --- | --- |
 | 应用版本 | 1.0.0 预览版 |
 | 构建版本 | 130069 |
 | 包名 | `com.tonghongxiang.quietstart.pro` |
-| 制品格式 | ZIP 封装原始 APP；APP 内含一个 `entry` 主模块 |
+| 制品格式 | HAP，单 `entry` 主模块 |
 | 签名 | 无签名，安装前需要自行签名 |
-| 文件大小 | 22,606,605 字节 |
+| 文件大小 | 27,762,038 字节 |
 
-下载 ZIP 并解压后得到原始无签名 APP。APP 为标准应用分发包，需要通过支持该格式的工具签名安装。若所用工具只接收 HAP，可从 APP 中取出 `entry-default.hap` 后签名安装。
+下载无签名 HAP 后，使用自己的开发者身份签名安装。无需解压。
 
 Pro 使用独立包名，可与普通轻启同时安装；两者不会自动共享应用数据。
 
@@ -38,8 +38,7 @@ Pro 使用独立包名，可与普通轻启同时安装；两者不会自动共�
 ## 校验
 
 ```text
-ff1ce148c4ff3ddc42540de6686e7d9c39b6d6b223f835b0af5af075d8e18caf  quietstart-pro-1.0.0-preview-130069-unsigned.app
-c614fa3b4060d66c8994dcb6aa41d5d08415886b22deb23a1bf1eaa7b59d1c5e  quietstart-pro-1.0.0-preview-130069-unsigned.app.zip
+9f006224c5ce599bf8fe66c60c0638c84cd5c6b5b002c376aa94d481894edfb7  quietstart-pro-1.0.0-preview-130069-unsigned.hap
 ```
 
 更新记录见 [CHANGELOG.md](CHANGELOG.md)。
