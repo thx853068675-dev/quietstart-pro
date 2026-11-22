@@ -6,16 +6,16 @@
 
 ## 下载
 
-**[下载 1.0.2 Beta HAP](https://github.com/thx853068675-dev/quietstart-pro/releases/download/v1.0.2-beta-130351/quietstart-pro-1.0.2-beta-130351-unsigned.hap)** · [发布说明](https://github.com/thx853068675-dev/quietstart-pro/releases/tag/v1.0.2-beta-130351) · [校验文件](https://github.com/thx853068675-dev/quietstart-pro/releases/download/v1.0.2-beta-130351/SHA256SUMS.txt)
+**[下载 1.0.2 Beta HAP](https://github.com/thx853068675-dev/quietstart-pro/releases/download/v1.0.2-beta-130352/quietstart-pro-1.0.2-beta-130352-unsigned.hap)** · [发布说明](https://github.com/thx853068675-dev/quietstart-pro/releases/tag/v1.0.2-beta-130352) · [校验文件](https://github.com/thx853068675-dev/quietstart-pro/releases/download/v1.0.2-beta-130352/SHA256SUMS.txt)
 
 | 项目 | 信息 |
 | --- | --- |
 | 应用版本 | 1.0.2 Beta |
-| 构建版本 | 130351 |
+| 构建版本 | 130352 |
 | 包名 | `com.tonghongxiang.quietstart.pro` |
 | 制品格式 | HAP，单 `entry` 主模块 |
 | 签名 | 无签名，安装前需要自行签名 |
-| 文件大小 | 21,748,216 字节 |
+| 文件大小 | 21,744,164 字节 |
 
 下载 HAP 后，使用自己的开发者身份签名安装。覆盖安装时需沿用原签名身份。
 
@@ -31,7 +31,7 @@ Pro 使用独立包名，可与普通轻启同时安装；两者不会自动共�
 
 ## Beta 验证
 
-130351 通过 302 项回归、8 项投影和 CPU 检查。其同源构建 130350 在 Pura X 完成 16 次计算任务交接及隐藏后台内存压测，主进程和 VPN 保持运行。
+130352 通过 332 项回归与 8 项投影和 CPU 检查，包含对 SDK 编译后工具包参数页的回归。后台计算任务交接的实机压测记录见 130351 的发布说明。
 
 MITM 需按实际需求配置规则与用户证书。
 
@@ -40,7 +40,7 @@ MITM 需按实际需求配置规则与用户证书。
 ## 校验
 
 ```text
-8249bd5b79ea3899d7ff8db761f13a4ac12c1f669bcce4851c115c18d1627366  quietstart-pro-1.0.2-beta-130351-unsigned.hap
+438d8a21b0f1df638e7ee004886636b96f7aa8ce8c7026db51cfc91fd6827efb  quietstart-pro-1.0.2-beta-130352-unsigned.hap
 ```
 
 更新记录见 [CHANGELOG.md](CHANGELOG.md)。
