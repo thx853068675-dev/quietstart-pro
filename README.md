@@ -6,16 +6,16 @@
 
 ## 下载
 
-**[下载 1.0.3 预览版 HAP](https://github.com/thx853068675-dev/quietstart-pro/releases/download/v1.0.3-preview-130373/quietstart-pro-1.0.3-preview-130373-unsigned.hap)** · [发布说明](https://github.com/thx853068675-dev/quietstart-pro/releases/tag/v1.0.3-preview-130373) · [校验文件](https://github.com/thx853068675-dev/quietstart-pro/releases/download/v1.0.3-preview-130373/SHA256SUMS.txt)
+**[下载 1.0.4 预览版 HAP](https://github.com/thx853068675-dev/quietstart-pro/releases/download/v1.0.4-preview-130405/quietstart-pro-1.0.4-preview-130405-unsigned.hap)** · [发布说明](https://github.com/thx853068675-dev/quietstart-pro/releases/tag/v1.0.4-preview-130405) · [校验文件](https://github.com/thx853068675-dev/quietstart-pro/releases/download/v1.0.4-preview-130405/SHA256SUMS.txt)
 
 | 项目 | 信息 |
 | --- | --- |
-| 应用版本 | 1.0.3 预览版 |
-| 构建版本 | 130373 |
+| 应用版本 | 1.0.4 预览版 |
+| 构建版本 | 130405 |
 | 包名 | `com.tonghongxiang.quietstart.pro` |
 | 制品格式 | HAP，单 `entry` 主模块 |
 | 签名 | 无签名，安装前需要自行签名 |
-| 文件大小 | 21,851,271 字节 |
+| 文件大小 | 26,147,084 字节 |
 
 下载 HAP 后，使用自己的开发者身份签名安装。覆盖安装时需沿用原签名身份。
 
@@ -31,7 +31,7 @@ Pro 使用独立包名，可与普通轻启同时安装。两者的应用数据�
 
 ## 预览版验证
 
-Pura 70 已验证桌面卡片后台启停 VPN、通知清理后补发，以及网络页切换 Tab 和回到前台时的页面恢复。
+130405 已通过 43 项相关回归及 release 打包检查，设备侧验收待完成。
 
 MITM 需按实际需求配置规则与用户证书。
 
@@ -40,7 +40,7 @@ MITM 需按实际需求配置规则与用户证书。
 ## 校验
 
 ```text
-aaab3ed8ee16b0aeeb2b60aa14e6a06d648a00b90015a2e88ee1d6fc685eb44a  quietstart-pro-1.0.3-preview-130373-unsigned.hap
+a34f8efc973ee4de85fffd5f221062593af5c9beaa5f0b067537aab4a1e69e7c  quietstart-pro-1.0.4-preview-130405-unsigned.hap
 ```
 
 更新记录见 [CHANGELOG.md](CHANGELOG.md)。
